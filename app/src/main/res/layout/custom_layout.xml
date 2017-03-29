@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/movie_image"
+        android:src="@drawable/test"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/movie_image"
+        android:id="@+id/movie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Avatar "
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/movie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1996"
+        android:layout_toRightOf="@+id/movie_image"
+        android:id="@+id/movie_release_year"
+        android:textColor="@color/colorPrimary"/>
+</RelativeLayout>
